@@ -1,0 +1,1 @@
+import type { MetadataRoute } from 'next'; import { projects } from '@/content/projects'; export default function sitemap(): MetadataRoute.Sitemap { const base='https://vaibhavrai.dev'; return [{url:base,lastModified:new Date()},...projects.map(p=>({url:`${base}/projects/${p.slug}`,lastModified:new Date()}))]; }

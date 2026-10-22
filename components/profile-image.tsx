@@ -1,0 +1,1 @@
+export function ProfileImage(){return <div className="hero-portrait relative overflow-hidden"><img src="/portfolio/portrait.jpeg" alt="Portrait of Vaibhav Kumar Rai" className="h-full w-full object-cover object-[center_35%]"/><span className="portrait-label">VAIBHAV · PORTRAIT</span></div>}
